@@ -153,7 +153,7 @@ func ParseQuestions() Student {
 
 func isStringEmpty(s string) bool {
 	if len(s) < 1 {
-		fmt.Println("Please answer the question.")
+		fmt.Println("Please answer the questions at the top of questions.go")
 		return true
 	}
 	return false
